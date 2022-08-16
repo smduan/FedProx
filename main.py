@@ -1,10 +1,11 @@
 from ast import arguments
-from utils_new import *
+from func import *
 import argparse
+from conf import conf
 
 parser = argparse.ArgumentParser()
-parser.add_argument('--global_epoch',type=int,default=5)
-parser.add_argument('--beta',default=0.05)
+parser.add_argument('--global_epoch',type=int,default=conf['global_epochs'])
+parser.add_argument('--beta',default=conf['beta'])
 args = parser.parse_args()
 
 
