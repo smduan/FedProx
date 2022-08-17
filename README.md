@@ -1,5 +1,8 @@
 # FedProx
 
+This repo is the implementation of the paper [Federated optimization in heterogeneous networks
+](https://proceedings.mlsys.org/paper/2020/file/38af86134b65d0f10fe33d30dd76442e-Paper.pdf)
+
 Run this repo:
 
 1. Downloaded datasets and oraganize them as follows:
